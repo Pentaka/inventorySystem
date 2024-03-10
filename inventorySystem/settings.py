@@ -138,3 +138,5 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 #login urls
 LOGIN_REDIRECT_URL = "/inventory"
 LOGIN_URL = "login"
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
