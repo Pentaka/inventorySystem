@@ -125,6 +125,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -138,4 +139,3 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 #login urls
 LOGIN_REDIRECT_URL = "/inventory"
 LOGIN_URL = "login"
-
