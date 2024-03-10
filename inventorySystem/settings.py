@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-dkbt!_d=a+))h0*ga5jxy7#p$-_^pxpmzpz@d=1cq!7m(8b7a5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['http://inventorysystem-qms4.onrender.com/']
 
