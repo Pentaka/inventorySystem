@@ -12,3 +12,4 @@ sqlparse==0.4.4
 tzdata==2024.1
 virtualenv==20.25.1
 django-pandas==0.6.6
+plotly=5.19.0
